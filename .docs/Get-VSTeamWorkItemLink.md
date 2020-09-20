@@ -1,31 +1,26 @@
 <!-- #include "./common/header.md" -->
 
-<!-- TODO: 
-Complete after getting feedback on Add-VSTeamWorkItemLink
-Borrowed from Get-VSTeamWorkItem
--->
-
-# Get-VSTeamWorkItem
+# Get-VSTeamWorkItemLink
 
 ## SYNOPSIS
 
-<!-- #include "./synopsis/Get-VSTeamWorkItem.md" -->
+<!-- #include "./synopsis/Get-VSTeamWorkItemLink.md" -->
 
 ## SYNTAX
 
 ## DESCRIPTION
 
-<!-- #include "./synopsis/Get-VSTeamWorkItem.md" -->
+TBD
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
 
 ```PowerShell
-PS C:\> Get-VSTeamWorkItem -Id 47,48
+PS C:\> Get-VSTeamWorkItemLink -Id 47,48
 ```
 
-This command gets work items with IDs 47 and 48 by using the IDs parameter.
+TBD
 
 ## PARAMETERS
 
@@ -94,7 +89,7 @@ WorkItemType
 
 ## NOTES
 
-WorkItemType is a dynamic parameter and use the default project value to query their validate set.
+TBD
 
 If you do not set the default project by called Set-VSTeamDefaultProject before calling Get-VSTeamWorkItem you will have to type in the names.
 
