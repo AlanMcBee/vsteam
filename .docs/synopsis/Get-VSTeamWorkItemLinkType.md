@@ -1,0 +1,1 @@
+Returns relationship types defined by the process used by a project.

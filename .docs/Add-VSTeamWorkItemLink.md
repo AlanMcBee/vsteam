@@ -8,8 +8,6 @@
 
 ## SYNTAX
 
-Add-VSTeamWorkItemLink [-Id] &lt;Int32> [-LinkId] &lt;Int32[]> [[-Relationship] &lt;String>] [-Comment &lt;String>] [-ErrorPolicy { Fail | Omit }] [-Force]
-
 ## DESCRIPTION
 
 Add-VSTeamWorkItemLink will add one or more links from an existing work item to one or more different existing work items.
