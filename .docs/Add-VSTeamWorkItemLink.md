@@ -82,6 +82,29 @@ Type: string
 Required: False
 ```
 
+### -ErrorPolicy
+
+The flag to control error policy in a bulk update work items request.  The acceptable values for this parameter are:
+
+- Fail
+- Omit
+
+```yaml
+Type: String
+Required: True
+Default value: omit
+```
+
+## INPUTS
+
+## OUTPUTS
+
+## NOTES
+
+Many possible link types can be used.
+
+**Relationship link types**
+
 The value of the relationship link type is defined by the project's process. For a list of available link types for a process, use the `Get-VSTeamWorkItemLinkType` cmdlet.
 
 The value may be one of these (in order of decreasing likelihood of ambiguity):
@@ -119,26 +142,6 @@ If you choose instead use the simple relationship name or the fully-qualified re
 | Fully-qualified Reference Name | Simple relationship name |
 |---|---|
 | System.LinkTypes.Related | Related |
-
-
-### -ErrorPolicy
-
-The flag to control error policy in a bulk update work items request.  The acceptable values for this parameter are:
-
-- Fail
-- Omit
-
-```yaml
-Type: String
-Required: True
-Default value: omit
-```
-
-## INPUTS
-
-## OUTPUTS
-
-## NOTES
 
 ## RELATED LINKS
 
